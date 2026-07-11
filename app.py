@@ -17,4 +17,4 @@ quotes = [
 
 st.info(random.choice(quotes))
 
-st.page_link("pages/1_Daily_Log.py", label="Get Started →")
+st.write("👈 Use the sidebar to navigate to Daily Log and Dashboard!")
