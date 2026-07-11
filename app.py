@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.image("banner.jpg",width = 700)
+st.image("banner.jpg", width=700)
 
 st.title("🌿 DayWell")
 st.subheader("Your daily health companion")
@@ -17,5 +17,4 @@ quotes = [
 
 st.info(random.choice(quotes))
 
-if st.button("Get Started →"):
-    st.switch_page("pages/1_Daily_Log.py")
+st.page_link("pages/1_Daily_Log.py", label="Get Started →")
