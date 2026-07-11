@@ -18,5 +18,4 @@ quotes = [
 st.info(random.choice(quotes))
 
 if st.button("Get Started →"):
-    st.switch_page("1_Daily_Log")
-   
+    st.switch_page("pages/1_Daily_Log.py")
